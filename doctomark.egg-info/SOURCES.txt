@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+doctomark/__init__.py
+doctomark/base.py
+doctomark/cli.py
+doctomark/docx.py
+doctomark/pdf.py
+doctomark/pptx.py
+doctomark/xlsx.py
+doctomark.egg-info/PKG-INFO
+doctomark.egg-info/SOURCES.txt
+doctomark.egg-info/dependency_links.txt
+doctomark.egg-info/entry_points.txt
+doctomark.egg-info/requires.txt
+doctomark.egg-info/top_level.txt

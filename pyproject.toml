@@ -1,0 +1,27 @@
+[project]
+name = "doctomark"
+version = "0.1.0"
+description = "Convert Office/PDF files to Markdown with embedded image extraction"
+requires-python = ">=3.10"
+dependencies = [
+    "markitdown>=0.0.2",
+    "mammoth>=1.6",
+    "python-pptx>=0.6",
+    "openpyxl>=3.1",
+    "xlrd>=2.0",
+    "pandas>=2.0",
+    "pdfminer.six>=2023",
+    "markdownify>=0.3",
+    "Pillow>=10.0",
+    "puremagic>=1.0",
+]
+
+[project.scripts]
+doctomark = "doctomark.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["doctomark*"]

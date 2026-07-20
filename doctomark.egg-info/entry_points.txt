@@ -1,0 +1,2 @@
+[console_scripts]
+doctomark = doctomark.cli:main

@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: doctomark
+Version: 0.1.0
+Summary: Convert Office/PDF files to Markdown with embedded image extraction
+Requires-Python: >=3.10
+Requires-Dist: markitdown>=0.0.2
+Requires-Dist: mammoth>=1.6
+Requires-Dist: python-pptx>=0.6
+Requires-Dist: openpyxl>=3.1
+Requires-Dist: xlrd>=2.0
+Requires-Dist: pandas>=2.0
+Requires-Dist: pdfminer.six>=2023
+Requires-Dist: markdownify>=0.3
+Requires-Dist: Pillow>=10.0
+Requires-Dist: puremagic>=1.0

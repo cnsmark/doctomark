@@ -1,0 +1,10 @@
+markitdown>=0.0.2
+mammoth>=1.6
+python-pptx>=0.6
+openpyxl>=3.1
+xlrd>=2.0
+pandas>=2.0
+pdfminer.six>=2023
+markdownify>=0.3
+Pillow>=10.0
+puremagic>=1.0
